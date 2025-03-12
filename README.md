@@ -19,7 +19,7 @@ After that, it goes a step further by grabbing **live info** about the most like
 
 ---
 
-## ⚙What’s Inside?
+## What’s Inside?
 Here’s what this app can do:
 - Ask you questions about common heart disease symptoms.
 - Rank **five common heart conditions**:
