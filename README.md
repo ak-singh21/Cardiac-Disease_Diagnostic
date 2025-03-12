@@ -1,39 +1,31 @@
-# Rare Disease Diagnostic Assistant
+# ❤️ Heart Disease Symptom Checker
 
-## Overview
-The **Rare Disease Diagnostic Assistant** is a Python-based tool made to assist users in identifying potential rare diseases based on the symptoms they input into the program. It uses a premade dataset of rare diseases and symptoms tied to it to provide suggestions.
+This is a simple Python project that helps you explore possible **heart diseases** based on the symptoms you enter. It’s made to give you a basic idea of what might be going on—just like a virtual conversation—but it’s **not** a replacement for real medical advice.
 
-## Features
-- Matches user-provided symptoms to rare diseases in the dataset.
-- Provides a list of potential rare diseases based on symptom overlap.
-- Easy-to-use interface through the command line.
+---
+
+## What Is This Project About?
+This program is a beginner-friendly **Heart Disease Symptom Diagnostic**. You answer a few **yes or no** questions about common heart-related symptoms, and it gives you a ranked list of **5 potential heart conditions**, from most likely to least likely.
+
+After that, it goes a step further by grabbing **live info** about the most likely disease from **WebMD**, so you can read up on it immediately.
+
+---
 
 ## How It Works
-1. The program includes a dataset of rare diseases mapped to their symptoms.
-2. Users input their symptoms as a comma-separated list.
-3. The program checks the input symptoms against the dataset.
-4. If matches are found, it lists the diseases that matches to the symptoms; otherwise, it tells the user that no matches were found.
+1. You run the program.
+2. It asks about symptoms like chest pain, shortness of breath, fatigue, etc.
+3. It scores your answers and ranks five possible heart conditions.
+4. It shows you more details about the #1 ranked disease—pulled straight from WebMD.
 
-## Dataset
-The dataset currently includes the following rare diseases and their symptoms:
+---
 
-| Disease                  | Symptoms                                                                 |
-|--------------------------|--------------------------------------------------------------------------|
-| Apert Syndrome           | Skull deformities, fusion of fingers, hearing loss                      |
-| Ehlers-Danlos Syndrome   | Hyper-flexible joints, skin that bruises easily, chronic pain            |
-| Marfan Syndrome          | Tall stature, long limbs, heart problems                                |
-| Kleine-Levin Syndrome    | Excessive sleep, hyperphagia, behavioral changes                        |
-| Stiff Person Syndrome    | Muscle stiffness, muscle spasms, anxiety                                |
-
-## Functions
-### `diagnose_disease(symptoms)`
-- **Input:** A list of symptoms (e.g., `["excessive sleep", "anxiety"]`).
-- **Output:** A list of diseases that match the symptoms.
-- **Logic:** Matches any input symptom to the symptoms in the dataset.
-
-### `main()`
-- **Purpose:** Serves as the entry point for the program.
-- **Functionality:**
-  1. Prompts the user for symptoms.
-  2. Processes the input and calls the `diagnose_disease` function.
-  3. Displays matched diseases or indicates no matches found.
+## ⚙What’s Inside?
+Here’s what this app can do:
+- Ask you questions about common heart disease symptoms.
+- Rank **five common heart conditions**:
+  1. Coronary Artery Disease
+  2. Heart Failure
+  3. Arrhythmia
+  4. Cardiomyopathy
+  5. Heart Valve Disease
+- Automatically grab and display **up-to-date info** about the top-ranked condition from **WebMD**.
